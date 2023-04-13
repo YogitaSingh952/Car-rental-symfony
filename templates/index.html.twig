@@ -1,0 +1,13 @@
+{% extends "base.html.twig" %}
+
+{% block title %}
+   Car Page
+{% endblock %}   
+
+{% block body %}
+    
+      {% for car in cars  %}
+         <li> {{ cars }} </li>
+      {% endfor %}   
+      
+{% endblock %}
